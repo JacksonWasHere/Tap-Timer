@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EEA13176A51A6A3587DBAA8 /* Pods_Tap_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E34B83AEF76A8A4BF6C977E /* Pods_Tap_TimerUITests.framework */; };
+		69B00AC2AF490657BD2EB17B /* Pods_Tap_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F180D80A7C41F883964FC51 /* Pods_Tap_Timer.framework */; };
+		7A115EB22123A1570005D2E5 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A115EB12123A1570005D2E5 /* Session.swift */; };
+		7A115EBA2123EE5C0005D2E5 /* SolveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A115EB92123EE5C0005D2E5 /* SolveViewController.swift */; };
+		7A115EBC212404F10005D2E5 /* SolveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A115EBB212404F10005D2E5 /* SolveCell.swift */; };
+		7A430E9B2123791100A87A12 /* Solve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A430E9A2123791100A87A12 /* Solve.swift */; };
+		7A430E9D2123816600A87A12 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A430E9C2123816600A87A12 /* MenuViewController.swift */; };
 		7A501FA22122A3460019E36B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A501FA12122A3460019E36B /* AppDelegate.swift */; };
-		7A501FA42122A3460019E36B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A501FA32122A3460019E36B /* ViewController.swift */; };
+		7A501FA42122A3460019E36B /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A501FA32122A3460019E36B /* TimerViewController.swift */; };
 		7A501FA72122A3460019E36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A501FA52122A3460019E36B /* Main.storyboard */; };
 		7A501FA92122A3480019E36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A501FA82122A3480019E36B /* Assets.xcassets */; };
 		7A501FAC2122A3480019E36B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A501FAA2122A3480019E36B /* LaunchScreen.storyboard */; };
 		7A501FB72122A3480019E36B /* Tap_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A501FB62122A3480019E36B /* Tap_TimerTests.swift */; };
 		7A501FC22122A3480019E36B /* Tap_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A501FC12122A3480019E36B /* Tap_TimerUITests.swift */; };
+		7A8228932126848D0021E8D7 /* StatisticsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8228922126848D0021E8D7 /* StatisticsTableViewController.swift */; };
+		7A8228952126849D0021E8D7 /* SessionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8228942126849D0021E8D7 /* SessionsTableViewController.swift */; };
+		7A822897212684C50021E8D7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A822896212684C50021E8D7 /* AboutViewController.swift */; };
+		7A82289B212685590021E8D7 /* ThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82289A212685590021E8D7 /* ThanksViewController.swift */; };
+		7A82289D212691980021E8D7 /* SolveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82289C212691980021E8D7 /* SolveTableViewController.swift */; };
+		7A8228C52126A30F0021E8D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A8228C42126A30F0021E8D7 /* GoogleService-Info.plist */; };
+		AAD912B86F024D96C4E64FE9 /* Pods_Tap_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F477C5262B4C57228B5CA94 /* Pods_Tap_TimerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48840795D4D8348E8A96C173 /* Pods-Tap TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap TimerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tap TimerUITests/Pods-Tap TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5689347F6F0B49AACE25DDE7 /* Pods-Tap Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap Timer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tap Timer/Pods-Tap Timer.debug.xcconfig"; sourceTree = "<group>"; };
+		6F180D80A7C41F883964FC51 /* Pods_Tap_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tap_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A115EB12123A1570005D2E5 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		7A115EB92123EE5C0005D2E5 /* SolveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveViewController.swift; sourceTree = "<group>"; };
+		7A115EBB212404F10005D2E5 /* SolveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveCell.swift; sourceTree = "<group>"; };
+		7A430E9A2123791100A87A12 /* Solve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solve.swift; sourceTree = "<group>"; };
+		7A430E9C2123816600A87A12 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		7A501F9E2122A3460019E36B /* Tap Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A501FA12122A3460019E36B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A501FA32122A3460019E36B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A501FA32122A3460019E36B /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		7A501FA62122A3460019E36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A501FA82122A3480019E36B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A501FAB2122A3480019E36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +69,18 @@
 		7A501FBD2122A3480019E36B /* Tap TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A501FC12122A3480019E36B /* Tap_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_TimerUITests.swift; sourceTree = "<group>"; };
 		7A501FC32122A3480019E36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8228922126848D0021E8D7 /* StatisticsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsTableViewController.swift; sourceTree = "<group>"; };
+		7A8228942126849D0021E8D7 /* SessionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsTableViewController.swift; sourceTree = "<group>"; };
+		7A822896212684C50021E8D7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		7A82289A212685590021E8D7 /* ThanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksViewController.swift; sourceTree = "<group>"; };
+		7A82289C212691980021E8D7 /* SolveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolveTableViewController.swift; sourceTree = "<group>"; };
+		7A8228C42126A30F0021E8D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F477C5262B4C57228B5CA94 /* Pods_Tap_TimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tap_TimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E34B83AEF76A8A4BF6C977E /* Pods_Tap_TimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tap_TimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C1438D675185B58EC94C2B /* Pods-Tap TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap TimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tap TimerTests/Pods-Tap TimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A64CF68FD53F4AD054892566 /* Pods-Tap TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap TimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tap TimerTests/Pods-Tap TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B46C89CEB48BC66908EB861C /* Pods-Tap Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap Timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tap Timer/Pods-Tap Timer.release.xcconfig"; sourceTree = "<group>"; };
+		E6744277E6F82FD7AC7F91A5 /* Pods-Tap TimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap TimerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tap TimerUITests/Pods-Tap TimerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B00AC2AF490657BD2EB17B /* Pods_Tap_Timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD912B86F024D96C4E64FE9 /* Pods_Tap_TimerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +104,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EEA13176A51A6A3587DBAA8 /* Pods_Tap_TimerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11D193915AB2DDC5862950AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5689347F6F0B49AACE25DDE7 /* Pods-Tap Timer.debug.xcconfig */,
+				B46C89CEB48BC66908EB861C /* Pods-Tap Timer.release.xcconfig */,
+				A64CF68FD53F4AD054892566 /* Pods-Tap TimerTests.debug.xcconfig */,
+				94C1438D675185B58EC94C2B /* Pods-Tap TimerTests.release.xcconfig */,
+				48840795D4D8348E8A96C173 /* Pods-Tap TimerUITests.debug.xcconfig */,
+				E6744277E6F82FD7AC7F91A5 /* Pods-Tap TimerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A115EAF2123A1010005D2E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A822899212685400021E8D7 /* About */,
+				7A822898212684E50021E8D7 /* Main */,
+				7A822891212684060021E8D7 /* Statistics */,
+				7A822890212683F80021E8D7 /* Sessions */,
+				7A82288F212683A20021E8D7 /* Solves */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A115EB02123A11D0005D2E5 /* Timer Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A430E9A2123791100A87A12 /* Solve.swift */,
+				7A115EB12123A1570005D2E5 /* Session.swift */,
+			);
+			path = "Timer Classes";
+			sourceTree = "<group>";
+		};
 		7A501F952122A3460019E36B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +152,8 @@
 				7A501FB52122A3480019E36B /* Tap TimerTests */,
 				7A501FC02122A3480019E36B /* Tap TimerUITests */,
 				7A501F9F2122A3460019E36B /* Products */,
+				11D193915AB2DDC5862950AA /* Pods */,
+				F5ADB3608592D94684D3F082 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +171,12 @@
 			isa = PBXGroup;
 			children = (
 				7A501FA12122A3460019E36B /* AppDelegate.swift */,
-				7A501FA32122A3460019E36B /* ViewController.swift */,
+				7A115EAF2123A1010005D2E5 /* Views */,
+				7A115EB02123A11D0005D2E5 /* Timer Classes */,
 				7A501FA52122A3460019E36B /* Main.storyboard */,
 				7A501FA82122A3480019E36B /* Assets.xcassets */,
 				7A501FAA2122A3480019E36B /* LaunchScreen.storyboard */,
+				7A8228C42126A30F0021E8D7 /* GoogleService-Info.plist */,
 				7A501FAD2122A3480019E36B /* Info.plist */,
 			);
 			path = "Tap Timer";
@@ -125,6 +200,60 @@
 			path = "Tap TimerUITests";
 			sourceTree = "<group>";
 		};
+		7A82288F212683A20021E8D7 /* Solves */ = {
+			isa = PBXGroup;
+			children = (
+				7A115EB92123EE5C0005D2E5 /* SolveViewController.swift */,
+				7A82289C212691980021E8D7 /* SolveTableViewController.swift */,
+				7A115EBB212404F10005D2E5 /* SolveCell.swift */,
+			);
+			path = Solves;
+			sourceTree = "<group>";
+		};
+		7A822890212683F80021E8D7 /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				7A8228942126849D0021E8D7 /* SessionsTableViewController.swift */,
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
+		7A822891212684060021E8D7 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				7A8228922126848D0021E8D7 /* StatisticsTableViewController.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		7A822898212684E50021E8D7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7A501FA32122A3460019E36B /* TimerViewController.swift */,
+				7A430E9C2123816600A87A12 /* MenuViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7A822899212685400021E8D7 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				7A822896212684C50021E8D7 /* AboutViewController.swift */,
+				7A82289A212685590021E8D7 /* ThanksViewController.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		F5ADB3608592D94684D3F082 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F180D80A7C41F883964FC51 /* Pods_Tap_Timer.framework */,
+				7F477C5262B4C57228B5CA94 /* Pods_Tap_TimerTests.framework */,
+				8E34B83AEF76A8A4BF6C977E /* Pods_Tap_TimerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A501FC62122A3480019E36B /* Build configuration list for PBXNativeTarget "Tap Timer" */;
 			buildPhases = (
+				A74BB5BFC41786288CE7AD3B /* [CP] Check Pods Manifest.lock */,
 				7A501F9A2122A3460019E36B /* Sources */,
 				7A501F9B2122A3460019E36B /* Frameworks */,
 				7A501F9C2122A3460019E36B /* Resources */,
+				EB5A05B42404DCBBE011A397 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A501FC92122A3480019E36B /* Build configuration list for PBXNativeTarget "Tap TimerTests" */;
 			buildPhases = (
+				E1715AB20B4ED88DDC75BBE3 /* [CP] Check Pods Manifest.lock */,
 				7A501FAE2122A3480019E36B /* Sources */,
 				7A501FAF2122A3480019E36B /* Frameworks */,
 				7A501FB02122A3480019E36B /* Resources */,
@@ -167,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A501FCC2122A3480019E36B /* Build configuration list for PBXNativeTarget "Tap TimerUITests" */;
 			buildPhases = (
+				6AA05E2DBECC805E5473981D /* [CP] Check Pods Manifest.lock */,
 				7A501FB92122A3480019E36B /* Sources */,
 				7A501FBA2122A3480019E36B /* Frameworks */,
 				7A501FBB2122A3480019E36B /* Resources */,
@@ -230,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A501FAC2122A3480019E36B /* LaunchScreen.storyboard in Resources */,
+				7A8228C52126A30F0021E8D7 /* GoogleService-Info.plist in Resources */,
 				7A501FA92122A3480019E36B /* Assets.xcassets in Resources */,
 				7A501FA72122A3460019E36B /* Main.storyboard in Resources */,
 			);
@@ -251,13 +385,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AA05E2DBECC805E5473981D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tap TimerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74BB5BFC41786288CE7AD3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tap Timer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1715AB20B4ED88DDC75BBE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tap TimerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5A05B42404DCBBE011A397 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tap Timer/Pods-Tap Timer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tap Timer/Pods-Tap Timer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A501F9A2122A3460019E36B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A501FA42122A3460019E36B /* ViewController.swift in Sources */,
+				7A115EB22123A1570005D2E5 /* Session.swift in Sources */,
+				7A501FA42122A3460019E36B /* TimerViewController.swift in Sources */,
+				7A822897212684C50021E8D7 /* AboutViewController.swift in Sources */,
+				7A115EBC212404F10005D2E5 /* SolveCell.swift in Sources */,
+				7A115EBA2123EE5C0005D2E5 /* SolveViewController.swift in Sources */,
+				7A82289B212685590021E8D7 /* ThanksViewController.swift in Sources */,
+				7A8228952126849D0021E8D7 /* SessionsTableViewController.swift in Sources */,
+				7A8228932126848D0021E8D7 /* StatisticsTableViewController.swift in Sources */,
+				7A82289D212691980021E8D7 /* SolveTableViewController.swift in Sources */,
+				7A430E9B2123791100A87A12 /* Solve.swift in Sources */,
 				7A501FA22122A3460019E36B /* AppDelegate.swift in Sources */,
+				7A430E9D2123816600A87A12 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +651,10 @@
 		};
 		7A501FC72122A3480019E36B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5689347F6F0B49AACE25DDE7 /* Pods-Tap Timer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YMFN925BMZ;
 				INFOPLIST_FILE = "Tap Timer/Info.plist";
@@ -439,15 +664,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.compileforawhile.Tap-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7A501FC82122A3480019E36B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46C89CEB48BC66908EB861C /* Pods-Tap Timer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YMFN925BMZ;
 				INFOPLIST_FILE = "Tap Timer/Info.plist";
@@ -457,13 +685,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.compileforawhile.Tap-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7A501FCA2122A3480019E36B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64CF68FD53F4AD054892566 /* Pods-Tap TimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +715,7 @@
 		};
 		7A501FCB2122A3480019E36B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C1438D675185B58EC94C2B /* Pods-Tap TimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +737,7 @@
 		};
 		7A501FCD2122A3480019E36B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48840795D4D8348E8A96C173 /* Pods-Tap TimerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +758,7 @@
 		};
 		7A501FCE2122A3480019E36B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6744277E6F82FD7AC7F91A5 /* Pods-Tap TimerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

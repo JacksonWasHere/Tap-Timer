@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17D47" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SessionData" representedClassName="SessionData" syncable="YES" codeGenerationType="class">
+        <attribute name="solves" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SolveData" representedClassName="SolveData" syncable="YES" codeGenerationType="class">
+        <attribute name="fTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="penalty" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scramble" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="solveDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="sTime" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SessionData" positionX="-54" positionY="-9" width="128" height="73"/>
+        <element name="SolveData" positionX="-54" positionY="117" width="128" height="135"/>
+    </elements>
+</model>
