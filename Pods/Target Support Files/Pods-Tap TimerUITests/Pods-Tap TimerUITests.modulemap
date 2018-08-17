@@ -1,0 +1,6 @@
+framework module Pods_Tap_TimerUITests {
+  umbrella header "Pods-Tap TimerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
